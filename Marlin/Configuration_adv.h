@@ -3176,7 +3176,7 @@
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
     #define Y_STALL_SENSITIVITY  8
     #define Y2_STALL_SENSITIVITY Y_STALL_SENSITIVITY
-    // #define Z_STALL_SENSITIVITY  50
+    #define Z_STALL_SENSITIVITY  50
     //#define Z2_STALL_SENSITIVITY Z_STALL_SENSITIVITY
     //#define Z3_STALL_SENSITIVITY Z_STALL_SENSITIVITY
     //#define Z4_STALL_SENSITIVITY Z_STALL_SENSITIVITY
@@ -3331,7 +3331,7 @@
  * See https://marlinfw.org/docs/configuration/2.0.9/laser_spindle.html for more config details.
  */
 //#define SPINDLE_FEATURE
-// #define LASER_FEATURE
+#define LASER_FEATURE
 #if EITHER(SPINDLE_FEATURE, LASER_FEATURE)
   #define SPINDLE_LASER_ACTIVE_STATE    LOW    // Set to "HIGH" if SPINDLE_LASER_ENA_PIN is active HIGH
 

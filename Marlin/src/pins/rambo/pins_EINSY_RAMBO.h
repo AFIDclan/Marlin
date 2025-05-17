@@ -190,9 +190,9 @@
 //
 #if HAS_CUTTER
   // Use P1 connector for spindle pins
-  #define SPINDLE_LASER_PWM_PIN      EXP1_02_PIN  // Hardware PWM
-  #define SPINDLE_LASER_ENA_PIN               18  // Pullup!
-  #define SPINDLE_DIR_PIN                     19
+  // #define SPINDLE_LASER_PWM_PIN      EXP1_02_PIN  // Hardware PWM
+  // #define SPINDLE_LASER_ENA_PIN               18  // Pullup!
+  // #define SPINDLE_DIR_PIN                     19
 #endif
 
 //

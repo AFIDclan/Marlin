@@ -119,7 +119,7 @@
 #define MOTHERBOARD BOARD_EINSY_RAMBO
 
 
-// #define SPINDLE_LASER_PWM_PIN 2
+#define SPINDLE_LASER_PWM_PIN 2
 //#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
 /**
