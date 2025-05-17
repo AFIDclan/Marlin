@@ -208,6 +208,12 @@
 // LCD / Controller
 //
 
+// https://github.com/bigtreetech/MINI-12864/blob/master/mini12864_v2.0/BIGTREETECH%20Mini12864%20V2.0%20User%20Manual.pdf
+#define DOGLCD_CS EXP1_03_PIN
+#define DOGLCD_A0 EXP1_04_PIN
+#define NEOPIXEL_PIN EXP1_06_PIN
+
+
 #if HAS_WIRED_LCD || TOUCH_UI_ULTIPANEL
 
   #define KILL_PIN                            32
