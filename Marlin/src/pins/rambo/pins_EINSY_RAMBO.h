@@ -128,7 +128,8 @@
 // Heaters / Fans
 //
 #define HEATER_0_PIN                           3
-#define HEATER_BED_PIN                         4
+// #define HEATER_BED_PIN                         4
+#define HEATER_BED_PIN                         -1
 
 #ifndef FAN0_PIN
   #ifdef MK3_FAN_PINS
