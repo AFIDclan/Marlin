@@ -692,7 +692,9 @@ void menu_advanced_settings() {
 
     #if HAS_M206_COMMAND
       // M428 - Set Home Offsets
-      ACTION_ITEM(MSG_SET_HOME_OFFSETS, []{ queue.inject(F("M428")); ui.return_to_status(); });
+      ACTION_ITEM(MSG_HOME_OFFSET_X, []{ queue.inject(F("M428 P X")); ui.return_to_status(); });
+      ACTION_ITEM(MSG_HOME_OFFSET_Y, []{ queue.inject(F("M428 P Y")); ui.return_to_status(); });
+      ACTION_ITEM(MSG_HOME_OFFSET_Z, []{ queue.inject(F("M428 P Z")); ui.return_to_status(); });
     #endif
 
     // M203 / M205 - Feedrate items
